@@ -1,0 +1,15 @@
+<?xml version="1.2" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.kodiv1.3" name="Banteng" version="1.0.1" provider-name="kodi-banteng">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Welcome to Kodi Bantengbuild</summary>
+		<description lang="en">Kodi Bantengbuild is de ideale build voor de film liefhebber!!!</description>
+		<disclaimer lang="en">Voor support, stuur me een bericht!!!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
